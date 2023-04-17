@@ -15,71 +15,7 @@ body{
     font-size: 16px;
     color: #666f78;
 }
-#topZone {
-    padding-top: 0px;
-    background-color: #fff;
-}
-.topbar-x1{
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-box-pack: start;
-    list-style: none;
-}
-nav, section{
-    display: block;
-}
-.imgcenter{
-    display: block;
-    margin-left: 41.5%;
-    margin-right: auto;
-}
-.block-t1{
-    -webkit-box-align: center;
-    align-items: center;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-}
-.col-lg{
-    -webkit-box-flex: 0;
-    width: auto;
-    max-width: none;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.navbar-nav {
-    display: flex;
-    padding-left: 0;
-    list-style: none;
-}
-.mem-nav a {
-    font-size: 14px;
-    font-family: 'Mitr', sans-serif;
-    color: #999999;
-    font-weight: bold;
-    font-style: normal;
-    text-decoration: none;
 
-}
-.mem-nav #sprMem::before {
-    padding: 0.4rem;
-    display: block;
-    font-weight: 400;
-    line-height: 1.5;
-    font-size: 14px;
-    color: #999999;
-    content: '|';
-}
-.nav-link{
-    display: block;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
 .img-logo{
     height: 131px;
     width: 300px;
@@ -201,121 +137,321 @@ ul{
 
 }
 
-.card-body{
-    background: #fff;
-    border: 1px solid rgba(0,0,0,.125);
-    -webkit-box-flex: 1;
-    flex: 1 1 auto;
-    padding: 1.25rem;
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
-    border-radius: 0.25rem;
-    width: 543.39px;
-    height: 550px;
+
+
+
+.text1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.text2{
+    color: #ff0000;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.text3{
+    color: #666f78;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.text4{
+    color: #666f78;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+
+
+.text5{
+    color: #666f78;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.text6{
+    color: #ff0000;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.text7{
+    color: #ff0000;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.center {
+    display: block;
     margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.text_1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.text_2{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_3{
+    font-size: 12px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #0000008A;
+    padding-left: 30%;
+}
+
+.text_4{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_5{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_6{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_7{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_8{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_9{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_10{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_11{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_12{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_13{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.text_14{
+    font-size: 12px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #0000008A;
+    padding-left: 30%;
+}
+
+.text_15{
+    font-size: 15px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding-left: 30%;
+}
+
+.box{
+    margin-left: 30%;
+}
+
+.how_to_pay{
+    position: absolute;
+    left: 30%;
+}
+
+.img{
+    display: block;
+    margin-left: 30%;
     margin-right: auto;
 }
 
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    box-sizing: border-box;
+form {
+    position: absolute;
+    left: 30%;
 }
-.card-title.text-center{
+
+.button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-1{
+    color: black;
+    font-size: 30px;
     font-family: 'Mitr', sans-serif;
-    color: #0e1118;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
     
 }
-.text-center{
+
+.text1_1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
     text-align: center;
-    font-family: 'Mitr', sans-serif;
 }
-label{
+
+.text1_2{
+    color: black;
+    font-size: 30px;
     font-family: 'Mitr', sans-serif;
-}
-input{
-    font-family: 'Mitr', sans-serif;
-}
-.btn-sub{
-    font-family: 'Mitr', sans-serif;
-    color: #fff;
-    background-color: #0e1118;
-    border-color: #0e1118;
-    border-width: 0;
-    border-radius: 20px;
-    background-image: none;
+    font-weight: normal;
+    font-style: normal;
     text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    padding: 0.5rem 1rem;
-    font-weight: 400;
-    width: 300px;
-    margin-left: 22%;
 }
 
-.btn-sub:hover {
-    background-color: #fd7e14;
-}
-
-.textLiner{
-    position: relative;
-    line-height: 1px;
-    margin: 30px 0;
-    text-align: center;
-    height: 1px;
-    background-color: rgba(0,0,0,.125)
-}
-
-.textonLiner{
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #fff;
-}
-
-.btn-facebook{
+.text1_3{
+    font-size: 15px;
     font-family: 'Mitr', sans-serif;
-    color: #fff;
-    background-color: #4468AF;
-    border-width: 0;
-    border-radius: 20px;
-    background-image: none;
+    font-weight: normal;
+    font-style: normal;
+    color: #0000008A;
     text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    padding: 0.5rem 1rem;
-    font-weight: 400;
-    width: 300px;
-    margin-left: 22%;
-    margin-bottom: 20px;
 }
 
-.btn-facebook:hover {
-    background-color: #3B5998;
+.textbox{
+    margin-left: 38%;
 }
 
-.btn-google{
+.button1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text0_1{
+    color: black;
+    font-size: 30px;
     font-family: 'Mitr', sans-serif;
-    color: #fff;
-    background-color: #E94335;
-    border-width: 0;
-    border-radius: 20px;
-    background-image: none;
+    font-weight: bold;
+    font-style: normal;
     text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    padding: 0.5rem 1rem;
-    font-weight: 400;
-    width: 300px;
-    margin-left: 22%;
-    margin-bottom: 20px;
 }
 
-.btn-google:hover {
-    background-color: #cf3b2e;
+.text2_1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
 }
-.text-center.divloginlink a{
-    color: #0e1118;
+
+.text2_2{
+    color: #666f78;
+    font-size: 24px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+.text2_3{
+    color: #666f78;
+    font-size: 16px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
 }
